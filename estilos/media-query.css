@@ -27,20 +27,33 @@
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
-    
+
     section#login{
         width: 950px;
         display: flex;
+        position: relative;
     }
 
     section#login > div#imagem{
         width: 50%;
         height: 100%;
+        position: absolute;
+        left: 50%;
     }
 
     section#login > div#formulario{
         width: 50%;
         height: 100%;
+        position: absolute;
+        right: 50%;
+    }
+
+    div#formulario h1{
+        font-size: 2em;
+    }
+
+    div#formulario p{
+        font-size: 1.2em;
     }
 
 }
