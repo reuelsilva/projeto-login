@@ -8,6 +8,7 @@
 
     section#login{
         width: 80vw;
+        height: 320px;
         display: flex;
     }
 
@@ -18,7 +19,12 @@
     }
 
     section#login > div#formulario{
-        width: 50%;
+        width: calc(50% + 156.641px) ;
+    }
+
+    div#formulario p{
+        font-size: 1em;
+        margin-bottom: 20px;
     }
 }
 
@@ -30,6 +36,7 @@
 
     section#login{
         width: 950px;
+        height: 350px;
         display: flex;
         position: relative;
     }
@@ -53,7 +60,7 @@
     }
 
     div#formulario p{
-        font-size: 1.2em;
+        font-size: 1.1em;
+        margin-bottom: 25px;
     }
-
 }
